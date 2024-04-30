@@ -1,0 +1,20 @@
+
+syntax = "proto3";
+package auth;
+
+option go_package = "./;auth";
+
+message UserReq{
+  string token = 1;
+  string id = 2;
+}
+message UserResp{
+  uint32 id = 1;
+  string account = 2;
+  string username = 3;
+  string name = 4;
+}
+
+service UserService {
+  rpc GetUserInfoByToken(UserReq) returns (UserResp){};
+}

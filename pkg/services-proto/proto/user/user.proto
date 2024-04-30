@@ -1,0 +1,51 @@
+syntax = "proto3";
+package services.user;
+message UserReq {
+  uint32 id = 1;
+  string code = 2;
+  string appid = 3;
+}
+
+message UpdatePasswordReq {
+  string token = 1;
+  string new_password = 2;
+  string appid = 3;
+}
+
+message BrandTokenReq {
+  string brand_token = 1;
+  string source = 2;
+  string module = 3;
+}
+
+message UserInfo {
+  uint32 id = 1;
+  string name = 2;
+  string mobile = 3;
+  string nickname = 4;
+  string avatar = 5;
+  uint32 status = 6;
+  string token = 7;
+  string register_at = 8;
+}
+
+message TokenReq {
+   uint32 uid = 1;
+   string appid = 2;
+}
+
+message TokenInfo {
+   string token = 1;
+}
+
+service UserService {
+    rpc GetUserByUid(UserReq) returns(UserInfo){};
+    rpc GetUserByCode(UserReq) returns(UserInfo){};
+    rpc GetUserByBrandToken(BrandTokenReq) returns(UserInfo){};
+
+    // 更新密码(通过token)
+    rpc UpdatePasswordByToken(UpdatePasswordReq) returns(UserInfo){};
+
+    // 获取token
+    rpc GetToken(TokenReq) returns(TokenInfo){};
+}
