@@ -3,7 +3,7 @@ package curl
 import (
 	"bytes"
 	"crypto/tls"
-	strLib "github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/strings"
+	strLib "github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/strings"
 	"io"
 	"net/http"
 	"reflect"

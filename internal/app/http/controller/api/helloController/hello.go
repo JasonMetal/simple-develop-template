@@ -1,7 +1,7 @@
 package helloController
 
 import (
-	baseController "github.com/BioforestChain/simple-develop-template/internal/app/http/controller"
+	baseController "github.com/JasonMetal/simple-develop-template/internal/app/http/controller"
 	"github.com/gin-gonic/gin"
 )
 

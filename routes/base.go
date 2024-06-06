@@ -1,7 +1,7 @@
 package router
 
 import (
-	"github.com/BioforestChain/simple-develop-template/routes/api/helloRouter"
+	"github.com/JasonMetal/simple-develop-template/routes/api/helloRouter"
 	"github.com/gin-gonic/gin"
 	"strings"
 )

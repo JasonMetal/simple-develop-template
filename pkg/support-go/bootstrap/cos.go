@@ -2,7 +2,7 @@ package bootstrap
 
 import (
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
 	"github.com/tencentyun/cos-go-sdk-v5"
 	"net/http"
 )

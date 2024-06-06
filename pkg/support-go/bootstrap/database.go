@@ -3,7 +3,7 @@ package bootstrap
 import (
 	"errors"
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
 	yCfg "github.com/olebedev/config"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

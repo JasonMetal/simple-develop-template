@@ -2,8 +2,8 @@ package bootstrap
 
 import (
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
-	redisHelper "github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/redis"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
+	redisHelper "github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/redis"
 	redis "github.com/go-redis/redis/v8"
 	yCfg "github.com/olebedev/config"
 	"os"

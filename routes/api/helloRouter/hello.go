@@ -1,7 +1,7 @@
 package helloRouter
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/app/http/controller/api/helloController"
+	"github.com/JasonMetal/simple-develop-template/internal/app/http/controller/api/helloController"
 	"github.com/gin-gonic/gin"
 )
 

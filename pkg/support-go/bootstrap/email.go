@@ -2,7 +2,7 @@ package bootstrap
 
 import (
 	"fmt"
-	configHelper "github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
+	configHelper "github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
 )
 
 type emailConfig struct {

@@ -2,7 +2,7 @@ package tencentcloud
 
 import (
 	"context"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	"github.com/tencentyun/cos-go-sdk-v5"
 	"github.com/tencentyun/cos-go-sdk-v5/debug"
 	"net/http"

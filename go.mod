@@ -1,4 +1,4 @@
-module github.com/BioforestChain/simple-develop-template
+module github.com/JasonMetal/simple-develop-template
 
 go 1.22.1
 

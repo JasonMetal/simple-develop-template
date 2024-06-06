@@ -2,8 +2,8 @@ package bootstrap
 
 import (
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/logger"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"

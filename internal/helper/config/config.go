@@ -2,8 +2,8 @@ package config
 
 import (
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/config"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/config"
 	"io/ioutil"
 	"os"
 )

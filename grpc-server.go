@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/constant"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/internal/constant"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	grpcHealth "google.golang.org/grpc/health"
 	"google.golang.org/grpc/health/grpc_health_v1"
 )

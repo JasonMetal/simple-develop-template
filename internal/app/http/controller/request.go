@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	"github.com/go-playground/validator/v10"
 	"reflect"
 	"strconv"

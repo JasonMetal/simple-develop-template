@@ -2,8 +2,8 @@ package tests
 
 import (
 	"context"
-	"github.com/BioforestChain/simple-develop-template/internal/app/model/common"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/internal/app/model/common"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	"github.com/gin-gonic/gin"
 	"gorm.io/gorm"
 	"testing"

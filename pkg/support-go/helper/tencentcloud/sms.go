@@ -3,8 +3,8 @@ package tencentcloud
 import (
 	"encoding/json"
 	"errors"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/slices"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/slices"
 	"github.com/tencentcloud/tencentcloud-sdk-go/tencentcloud/common"
 	"strings"
 )

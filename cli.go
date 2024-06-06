@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/app/cmd"
+	"github.com/JasonMetal/simple-develop-template/internal/app/cmd"
 )
 
 func main() {

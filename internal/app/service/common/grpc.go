@@ -2,7 +2,7 @@ package common
 
 import (
 	"context"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	"github.com/gin-gonic/gin"
 	"time"
 )

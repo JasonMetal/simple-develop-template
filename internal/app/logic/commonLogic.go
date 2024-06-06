@@ -1,7 +1,7 @@
 package logic
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/app/constant"
+	"github.com/JasonMetal/simple-develop-template/internal/app/constant"
 	"math"
 )
 

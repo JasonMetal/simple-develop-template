@@ -2,8 +2,8 @@ package tencentcloud
 
 import (
 	"fmt"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/entity"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/entity"
 
 	sts "github.com/tencentyun/qcloud-cos-sts-sdk/go"
 )

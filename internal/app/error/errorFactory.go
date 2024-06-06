@@ -1,8 +1,8 @@
 package error
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/app/error/mysql"
-	"github.com/BioforestChain/simple-develop-template/internal/app/error/newsPageError"
+	"github.com/JasonMetal/simple-develop-template/internal/app/error/mysql"
+	"github.com/JasonMetal/simple-develop-template/internal/app/error/newsPageError"
 )
 
 // NewMysqlError 实例化mysql错误

@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/BioforestChain/simple-develop-template/internal/constant"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
-	router "github.com/BioforestChain/simple-develop-template/routes"
+	"github.com/JasonMetal/simple-develop-template/internal/constant"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
+	router "github.com/JasonMetal/simple-develop-template/routes"
 	"github.com/gin-gonic/gin"
 )
 

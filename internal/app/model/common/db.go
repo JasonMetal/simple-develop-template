@@ -2,8 +2,8 @@ package common
 
 import (
 	"context"
-	myError "github.com/BioforestChain/simple-develop-template/internal/app/error"
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/bootstrap"
+	myError "github.com/JasonMetal/simple-develop-template/internal/app/error"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/bootstrap"
 	"gorm.io/gorm"
 )
 

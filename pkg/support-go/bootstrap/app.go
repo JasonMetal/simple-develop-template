@@ -14,7 +14,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/BioforestChain/simple-develop-template/pkg/support-go/helper/logger"
+	"github.com/JasonMetal/simple-develop-template/pkg/support-go/helper/logger"
 	"github.com/gin-gonic/gin"
 	"go.uber.org/zap"
 )
